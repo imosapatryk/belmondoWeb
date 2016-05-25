@@ -1,0 +1,23 @@
+@value color-walking, color-running, color-cycling from '../common/colors.css';
+
+.h-walking{
+  background-color: color-walking;
+}
+
+.h-running{
+  background-color: color-running;
+}
+
+.h-cycling{
+  background-color: color-cycling;
+}
+
+
+.right{
+  float:right;
+}
+
+.datetime{
+  composes: middle-small from '../common/typography';
+  color: white;
+}
